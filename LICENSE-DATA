@@ -1,0 +1,16 @@
+This userscript loads the gunsnprices parser library (https://github.com/gunsnprices/gunsnprices-js,
+npm package "gunsnprices") through its @require line. The library's data files - the firearm model
+dictionaries and the caliber list in src/data/ - are Copyright (c) 2026 GunsNPrices (https://gunsnprices.com)
+and are licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0). The specs,
+caliber names and caliber links the userscript shows come from that data.
+
+You are free to share and adapt the data for any purpose, including commercially, as long as you give
+appropriate credit: "GunsNPrices (gunsnprices.com)" with a link to https://gunsnprices.com, and indicate if
+changes were made. The userscript's panel carries this credit.
+
+Full license text: https://creativecommons.org/licenses/by/4.0/legalcode
+
+The same data is published as datasets at
+https://huggingface.co/gunsnprices and https://github.com/gunsnprices/firearm-datasets
+
+The userscript's own code (gunsnprices.user.js) is under the MIT License, see LICENSE.

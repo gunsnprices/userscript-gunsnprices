@@ -1,0 +1,65 @@
+<!doctype html>
+<!--
+  Hand-written test fixture for the Tractor Supply adapter. It is NOT a copy of tractorsupply.com markup (the live
+  site could not be fetched); it uses product titles in the store's format ("..., 50 Rounds") inside a typical
+  product grid. The adapter uses the generic rules, so the exact markup does not matter.
+-->
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Handgun Ammo at Tractor Supply Co.</title>
+</head>
+<body>
+  <header role="banner">
+    <nav>
+      <a href="/tsc/catalog/ammo-deals">9mm Ammo 1000 Rounds Deals</a>
+      <a href="/tsc/catalog/handgun-ammo">Handgun Ammo</a>
+    </nav>
+  </header>
+  <main>
+    <h1>Handgun Ammo</h1>
+    <ul class="product-grid">
+      <li class="product-tile" data-testid="product-tile">
+        <a href="/tsc/product/winchester-ammo-9mm-luger-115-grain-full-metal-jacket-handgun-ammunition-50-rounds-w9mm50"><img src="data:," alt=""></a>
+        <a class="product-title" href="/tsc/product/winchester-ammo-9mm-luger-115-grain-full-metal-jacket-handgun-ammunition-50-rounds-w9mm50">Winchester Ammo 9mm Luger 115 Grain Full Metal Jacket Handgun Ammunition, 50 Rounds</a>
+        <div class="rating">4.7 (212)</div>
+        <div class="price"><span class="price-dollars">$16</span><sup>99</sup></div>
+        <button type="button">Add to Cart</button>
+      </li>
+      <li class="product-tile" data-testid="product-tile">
+        <a class="product-title" href="/tsc/product/remington-38-spl-125gr-jhp-umc-50-rnd-pk">Remington 38 SPL 125gr JHP UMC 50 Rnd Pk</a>
+        <div class="price"><span class="sale-price">$27.99</span> <s class="was-price">$31.99</s></div>
+      </li>
+      <li class="product-tile" data-testid="product-tile">
+        <a class="product-title" href="/tsc/product/sellier-bellot-357-magnum-158-grain-lead-flat-nose-handgun-ammunition-50-rounds">Sellier &amp; Bellot 357 Magnum 158 Grain Lead Flat Nose Handgun Ammunition, 50 Rounds</a>
+        <div class="price"><span>$38.99</span></div>
+      </li>
+      <li class="product-tile" data-testid="product-tile">
+        <a class="product-title" href="/tsc/product/ruger-10-22-carbine">Ruger 10/22 Carbine .22 LR 18.5 in. Barrel 10 Rounds</a>
+        <div class="price"><span>$299.99</span></div>
+      </li>
+      <li class="product-tile" data-testid="product-tile">
+        <a class="product-title" href="/tsc/product/mtm-ammo-can">MTM Ammo Can 30 Caliber, Holds 500 Rounds</a>
+        <div class="price"><span>$14.99</span></div>
+      </li>
+      <li class="product-tile" data-testid="product-tile">
+        <a class="product-title" href="/tsc/product/federal-punch-45-auto-230-grain-jacketed-hollow-point-handgun-ammunition-50-rounds">Federal Punch 45 Auto 230 Grain Jacketed Hollow Point Handgun Ammunition, 50 Rounds</a>
+        <div class="stock">Out of stock</div>
+      </li>
+      <li class="product-tile" data-testid="product-tile">
+        <a class="product-title" href="/tsc/product/federal-top-gun-12-gauge-target-shotshells-25-rounds">Federal Top Gun 12 Gauge 2-3/4 in. 1-1/8 oz. #8 Shot Target Shotshells, 25 Rounds</a>
+        <div class="price"><span>$9.99</span></div>
+      </li>
+      <li class="product-tile" data-testid="product-tile">
+        <a class="product-title" href="/tsc/product/winchester-22-lr-36-grain-555-rounds">Winchester 22 LR 36 Grain Copper Plated Hollow Point, 555 Rounds</a>
+        <div class="price"><span>$36.99</span></div>
+      </li>
+      <li class="product-tile" data-testid="product-tile">
+        <a class="product-title" href="/tsc/product/federal-champion-22-lr-525-rounds">Federal Champion 22 LR 36 Grain Plated Lead Hollow Point, 525 Rounds</a>
+        <div class="price"><span>$29.99 - $34.99</span></div>
+      </li>
+    </ul>
+  </main>
+  <footer role="contentinfo"><a href="/tsc/ammo-policy">Ammunition sales policy for 50 Rounds and more</a></footer>
+</body>
+</html>

@@ -1,0 +1,68 @@
+<!doctype html>
+<!--
+  Hand-written test fixture: a listing page on a site that is not one of the adapters. It mixes markup patterns
+  common to store platforms (special/old price boxes, struck sale prices, split dollars and cents) with tiles the
+  script must leave alone (a per-round price already shown, a price range, an implausible price).
+-->
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Ammo - Example Outdoor Store</title>
+</head>
+<body>
+  <h1>Ammunition</h1>
+  <ol class="products list items product-items">
+    <li class="item product product-item">
+      <div class="product-item-info">
+        <a class="product-item-photo" href="/magtech-9mm-115gr-fmj-1000rd-case.html"><img src="data:," alt=""></a>
+        <div class="product-item-details">
+          <strong class="product name product-item-name"><a class="product-item-link" href="/magtech-9mm-115gr-fmj-1000rd-case.html">Magtech 9mm Luger 115gr FMJ Ammunition 1000rd Case</a></strong>
+          <div class="price-box price-final_price">
+            <span class="special-price"><span class="price-container"><span class="price-wrapper" data-price-type="finalPrice" data-price-amount="319.99"><span class="price">$319.99</span></span></span></span>
+            <span class="old-price"><span class="price-container"><span class="price-wrapper" data-price-type="oldPrice" data-price-amount="349.99"><span class="price">$349.99</span></span></span></span>
+          </div>
+        </div>
+      </div>
+    </li>
+    <li class="item product product-item">
+      <div class="card">
+        <h3 class="card__heading"><a href="/products/pmc-bronze-223-55gr-fmj-20">PMC Bronze .223 Rem 55gr FMJ 20 Rounds</a></h3>
+        <div class="price price--on-sale">
+          <div class="price__sale"><s class="price-item price-item--regular">$12.99</s> <span class="price-item price-item--sale">$10.99</span></div>
+        </div>
+      </div>
+    </li>
+    <li class="item product product-item">
+      <div class="card">
+        <h3 class="card__heading"><a href="/products/federal-american-eagle-9mm-115-50">Federal American Eagle 9mm 115gr FMJ 50rd Box</a></h3>
+        <div class="price"><span class="price-item">$17.99</span> <span class="cpr-note">$0.36 per round</span></div>
+      </div>
+    </li>
+    <li class="item product product-item">
+      <div class="card">
+        <h3 class="card__heading"><a href="/products/winchester-usa-45-acp-230-100">Winchester USA 45 ACP 230gr FMJ 100 Rounds</a></h3>
+        <div class="price"><span class="price-item">$54.99 – $59.99</span></div>
+      </div>
+    </li>
+    <li class="item product product-item">
+      <div class="card">
+        <h3 class="card__heading"><a href="/products/hornady-critical-defense-380">Hornady Critical Defense 380 ACP 90gr FTX 25 Rounds</a></h3>
+        <div class="price"><span class="price-item"><span class="currency">$</span><span class="whole">24</span><span class="decimal">.</span><span class="fraction">99</span></span></div>
+      </div>
+    </li>
+    <li class="item product product-item">
+      <div class="card">
+        <h3 class="card__heading"><a href="/products/lake-city-m855-1000-round-can">Lake City 5.56 M855 62gr Green Tip 1000 Round Can</a></h3>
+        <div class="price"><span class="price-item">$1,199.99</span></div>
+      </div>
+    </li>
+    <li class="item product product-item">
+      <div class="card">
+        <h3 class="card__heading"><a href="/products/sample-9mm-1000">Federal 9mm Ammo Sample Pack 1000 Rounds</a></h3>
+        <div class="price"><span class="price-item">$5.00</span></div>
+      </div>
+    </li>
+  </ol>
+  <aside class="promo"><p>Free shipping on orders over $49</p></aside>
+</body>
+</html>

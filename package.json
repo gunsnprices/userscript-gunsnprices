@@ -1,0 +1,23 @@
+{
+  "name": "userscript-gunsnprices",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Source and tests of the GunsNPrices userscript: gun and ammo specs and cost per round from product titles, offline.",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "test": "node --test \"test/*.test.js\"",
+    "lint": "eslint .",
+    "check-require": "node tools/check-require.mjs"
+  },
+  "devDependencies": {
+    "@eslint/js": "10.0.1",
+    "eslint": "10.15.0",
+    "globals": "17.14.0",
+    "gunsnprices": "0.1.2",
+    "jsdom": "29.1.1"
+  },
+  "engines": {
+    "node": "^20.19.0 || ^22.13.0 || >=24"
+  }
+}
